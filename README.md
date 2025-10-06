@@ -31,7 +31,6 @@ You must be logged in to your personal account on GitHub to use this template (r
 2. Create your new repository from the template.  
    - ✅ **Select “Include all branches.”** You’ll need all branches provided by the template.
 
----
 
 ## 🔑 Grant Workflow Permissions
 
@@ -86,8 +85,6 @@ Put all of your DITA content inside the `dita` directory:
   - 🌐 **[Bootstrap](https://getbootstrap.com/)-themed HTML**
   - 📄 **PDF**
 
----
-
 ## 🌐 Enable & View GitHub Pages
 
 1. **Settings → Pages**  
@@ -95,8 +92,6 @@ Put all of your DITA content inside the `dita` directory:
 3. **Branch**: choose **`gh-pages`** and **`/ (root)`**, then **Save**  
 4. Your site will be available at:  
 `https://<your-username>.github.io/<your-repo>/`
-
---
 
 ## 📊 Monitor Workflow Runs
 
@@ -109,8 +104,6 @@ Put all of your DITA content inside the `dita` directory:
 
 > ⏱️ Builds and page deployments can take a few minute to appear after a successful run.
 
---
-
 ## 📄 PDF Deliverable
 
 The PDF output is not deployed directly to GitHub Pages.  
@@ -120,6 +113,7 @@ Instead, each workflow run on the **Actions** page provides the PDF as a downloa
 2. Select the latest successful workflow run.  
 3. Scroll down to the **Artifacts** section.  
 4. Click the PDF artifact link to download your deliverable. 
+
 ---
 
 ## 🎨 Customize the Outputs

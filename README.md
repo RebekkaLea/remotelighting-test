@@ -21,7 +21,7 @@ Template repository for publishing **Bootstrap-themed HTML** and **PDF** outputs
 
 ## Prerequisites
 
-You must be logged in to your personal account on GitHub to use this template (refer to [Creating an account on GitHub[(https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) for instructions). 
+You must be logged in to your personal account on GitHub to use this template (refer to [Creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github) for instructions). 
 
 ---
 

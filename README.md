@@ -19,6 +19,11 @@ Template repository for publishing **Bootstrap-themed HTML** and **PDF** outputs
 
 ---
 
+## [] Prerequisites
+
+You must be logged in to your personal account on GitHub to use this template (refer to Creating an account on GitHub for instructions). 
+---
+
 ## 🚀 Getting Started
 
 1. Click **“Use this template”** at the top of this page.  
@@ -64,9 +69,11 @@ Put all of your DITA content inside the `dita` directory:
 **Requirements**
 
 - 📄 **Main map name**: The default workflow expects **`document.ditamap`**.  
-  - You *can* rename it, but then you must update the workflow where it references `document.ditamap` (open `.github/workflows/ci.yml` and search for that filename).
+  - Rename your DITA map **`document.ditamap`**. Suggest doing this before putting your DITA content inside the dita directory.
+  - You *can* give it a different name, but then you must update the workflow where it references `document.ditamap` (open `.github/workflows/ci.yml` and search for that filename).
 - 🏠 **Homepage**: `dita/index.dita` will serve as the site’s landing page.
-  - You need to reference your `index.dita` as the first topic reference in your `document.ditamap`. Otherwise, your deliverables will not have a home page or introduction.
+  - Create an index.dita generic or concept topic. Suggest doing this before putting your DITA content inside the dita directory. 
+  - Reference your `index.dita` as the first topic reference in your `document.ditamap`. Otherwise, your deliverables will not have a home page or introduction. Suggest doing this before        putting your DITA content inside the dita directory. The index.dita topic might include overview or about information.
 - 📁 Keep topics, maps, and media under the `dita/` folder.
 
 ---
@@ -78,17 +85,6 @@ Put all of your DITA content inside the `dita` directory:
   - 🌐 **[Bootstrap](https://getbootstrap.com/)-themed HTML**
   - 📄 **PDF**
 
-### 📊 Monitor Workflow Runs
-
-- Go to the **Actions** tab → open the most recent run.
-- ✅ **Green check** = success | ❌ **Red X** = failed  
-- Click into a failed job to read logs. Typical causes:
-  - Missing `document.ditamap` or broken references
-  - Invalid DITA markup
-  - Insufficient token permissions to push to `gh-pages`
-
-> ⏱️ Builds and page deployments can take a few minute to appear after a successful run.
-
 ---
 
 ## 🌐 Enable & View GitHub Pages
@@ -99,7 +95,22 @@ Put all of your DITA content inside the `dita` directory:
 4. Your site will be available at:  
 `https://<your-username>.github.io/<your-repo>/`
 
-### 📄 PDF Deliverable
+--
+
+## 📊 Monitor Workflow Runs
+
+- Go to the **Actions** tab → open the most recent run.
+- ✅ **Green check** = success | ❌ **Red X** = failed  
+- Click into a failed job to read logs. Typical causes:
+  - Missing `document.ditamap` or broken references
+  - Invalid DITA markup
+  - Insufficient token permissions to push to `gh-pages`
+
+> ⏱️ Builds and page deployments can take a few minute to appear after a successful run.
+
+--
+
+## 📄 PDF Deliverable
 
 The PDF output is not deployed directly to GitHub Pages.  
 Instead, each workflow run on the **Actions** page provides the PDF as a downloadable **artifact**:

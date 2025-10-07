@@ -74,7 +74,7 @@ Put all of your DITA content inside the `dita` directory:
   - You *can* give it a different name, but then you must update the workflow where it references `document.ditamap` (open `.github/workflows/ci.yml` and search for that filename).
 - 🏠 **Homepage**: `dita/index.dita` will serve as the site’s landing page.
   - Create an index.dita generic or concept topic. Suggest doing this before putting your DITA content inside the dita directory. 
-  - Reference your `index.dita` as the first topic reference in your `document.ditamap`. Otherwise, your deliverables will not have a home page or introduction. Suggest doing this before        putting your DITA content inside the dita directory. The index.dita topic might include overview or about information.
+  - Reference your `index.dita` as the first topic reference in your `document.ditamap`. Otherwise, your deliverables will not have a home page or introduction. Suggest doing this before putting your DITA content inside the dita directory. The index.dita topic might include overview or about information.
 - 📁 Keep topics, maps, and media under the `dita/` folder.
 
 ---

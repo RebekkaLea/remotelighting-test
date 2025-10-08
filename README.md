@@ -6,7 +6,7 @@ Template repository for publishing **Bootstrap-themed HTML** and **PDF** outputs
 
 ## 🧭 Table of Contents
 
-- [Prerequisites](#-prerequisites)
+- [Prerequisite](#-prerequisites)
 - [🚀 Getting Started](#-getting-started)
 - [🔑 Grant Workflow Permissions](#-grant-workflow-permissions)
 - [🧱 Project Layout & Requirements](#-project-layout--requirements)
